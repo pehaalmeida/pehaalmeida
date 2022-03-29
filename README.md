@@ -7,7 +7,7 @@
   Deis dos meus <b>12 anos</b> venho aprendendo sobre essa área incrível<br>
   Para mim <b>programar</b> é uma <b>arte</b>! 🖼️</p>
   <p><br></p>
-  
+  <p><br></p>
   <div align="left">
   <a href="https://instagram.com/devpedroalmeida" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://discord.gg/cJnb4F8EhP" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
