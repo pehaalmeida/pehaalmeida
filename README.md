@@ -3,7 +3,7 @@
 <div align="left">
 <img align="left" src="https://github.com/DevPedroAlmeida/devpedroalmeida/blob/main/gif/programmer.gif" width="350"/><br>
 <h1>Hello World!,<br> Meu Nome é <i>Pedro Almeida🌎</i> </h1>
-  <p>Amo <b>Tecnologia</b> sempre fui apaixonado por <b>Progamação</b>🧑🏻‍💻<br>
+  <p>Amo <b>Tecnologia</b> sempre fui apaixonado por <b>Programação</b>🧑🏻‍💻<br>
   Deis dos meus <b>12 anos</b> venho aprendendo sobre essa área incrível<br>
   Para mim <b>programar</b> é uma <b>arte</b>! 🖼️</p>
   <p><br></p>
