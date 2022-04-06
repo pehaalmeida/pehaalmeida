@@ -5,7 +5,7 @@
 <h1>Hello World!,<br> Meu Nome é <i>Pedro Almeida🌎</i> </h1>
   <p>Sou apaixonado por Tecnologia sempre amei a área de Programação,
   Desde de jovem venho aprendendo sobre essa área incrível,
-  Como sempre falo para mim, programar é uma arte!</p>
+  Como sempre falo programar é uma arte!</p>
   <p><br></p>
   <p><br></p>
   <div align="left">
