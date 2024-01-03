@@ -35,17 +35,13 @@
 </div>
    
   ##
-  
-  <p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=devpedroalmeida&theme=redical">
-</p> 
 
 <p align = "center">
   <a href="https://pufler.dev/git-badges/">
-    <img height="20" max-width="80" src="https://badges.pufler.dev/repos/devpedroalmeida">
+    <img height="20" max-width="80" src="https://badges.pufler.dev/repos/pehaalmeida">
   </a>
    <a href="https://pufler.dev/git-badges/">
-    <img height="20" max-width="80" src="https://badges.pufler.dev/commits/monthly/devpedroalmeida">
+    <img height="20" max-width="80" src="https://badges.pufler.dev/commits/monthly/pehaalmeida">
   </a>
 </p>
   
