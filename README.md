@@ -1,7 +1,7 @@
 
 
 <div align="left">
-<img align="left" src="https://github.com/DevPedroAlmeida/devpedroalmeida/blob/main/gif/programmer.gif" width="350"/><br>
+<img align="left" src="https://github.com/pehaalmeida/pehaalmeida/blob/main/gif/programmer.gif" width="350"/><br>
 <h1>Hello World!,<br> Meu Nome é <b>Pedro Almeida</b>🌎 </h1>
   <p>Sou apaixonado por Tecnologia e sempre amei a área de Programação. <br>Desde jovem venho aprendendo sobre esse campo incrível. <br>Como costumo dizer, programar é uma arte</p>
   <p><br></p>
@@ -27,9 +27,9 @@
 
  <h2><i>Dados</i></h2>
 <div align="center">
-  <a href="https://github.com/devpedroalmeida">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devpedroalmeida&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devpedroalmeida&layout=compact&langs_count=7&theme=dracula"/>
+  <a href="https://github.com/pehaalmeida">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pehaalmeida&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pehaalmeida&layout=compact&langs_count=7&theme=dracula"/>
 </div>
    
   ##
