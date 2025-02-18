@@ -1,7 +1,7 @@
 
 
 <div align="left">
-<img align="left" src="https://github.com/pehaalmeida/pehaalmeida/blob/main/gif/programmer.gif" width="350"/><br>
+<img align="left" src="https://github.com/pehaalmeida/pehaalmeida/blob/main/gif/programmer.gif" width="350" padding-right="10"/><br>
 <h1>Hello World!,<br> Meu Nome é <b>Pedro Augusto</b>🌎 </h1>
   <p>Porém, sou mais conhecido como Augusto. Sou apaixonado por tecnologia e sempre amei a área de programação. <br>Desde jovem, venho explorando esse campo incrível. <br>Como costumo dizer, programar é uma arte.</p>
   <p><br></p>
