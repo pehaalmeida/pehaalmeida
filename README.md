@@ -1,7 +1,7 @@
 <div align="left">
 <a href="https://github.com/pehaalmeida"><img src="INICIO.svg" />
 <a href="https://github.com/pehaalmeida"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=5A2797&width=435&lines=Hello+World!%2C%F0%9F%8C%8E;Meu+Nome+%C3%A9+Pedro+Augusto+%F0%9F%98%81" alt="Typing SVG" /></a>
-  <p>Porém, sou mais conhecido como Augusto. Sou apaixonado por tecnologia e sempre amei a área de programação. <br>Desde jovem, venho explorando esse campo incrível. <br>Como costumo dizer, programar é uma arte.</p>
+  <p>Porém, sou mais conhecido como <b>Augusto</b>. Sou apaixonado por tecnologia e sempre amei a área de programação. <br>Desde jovem, venho explorando esse campo incrível. <br>Como costumo dizer, programar é uma <b>arte</b>.</p>
   <p><br></p>
   <p><br></p>
   <div align="left">
