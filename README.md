@@ -38,7 +38,7 @@
     <img height="20" max-width="80" src="https://badges.pufler.dev/repos/pehaalmeida">
   </a>
    <a href="https://pufler.dev/git-badges/">
-    [![Commits Badge](https://badges.pufler.dev/commits/monthly/pehaalmeida)](https://badges.pufler.dev)
+    <img height="20" max-width="80" src="https://badges.pufler.dev/commits/monthly/pehaalmeida">
   </a>
 </p>
   
