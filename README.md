@@ -31,7 +31,7 @@
  <h2><i>Dados</i></h2>
 <div align="center">
   <a href="https://github.com/pehaalmeida">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pehaalmeida&show_icons=true&theme=dracula&include_all_commits=true&count_private=%20false"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pehaalmeida&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&&theme=graywhite"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pehaalmeida&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
