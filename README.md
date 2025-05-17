@@ -11,7 +11,7 @@
 </div> 
 </div>
 
-### Frontend  
+### Tecnologia  
 <div align="center">  
 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" /></a>  
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
@@ -28,21 +28,19 @@
 <a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
 </div>
 
- <h2><i>Dados</i></h2>
+### Dados 
 <a href="https://github.com/pehaalmeida/pehaalmeida"><img height="137px" src="https://github-readme-stats.vercel.app/api?username=pehaalmeida&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&&theme=graywhite" /><!-- wi*quL3fcV --><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pehaalmeida&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&theme=graywhite" /></a>
-
-
-
-  ##
-
 <p align = "center">
-  <a href="https://pufler.dev/git-badges/">
+  <a href="https://github.com/pehaalmeida/pehaalmeida">
     <img height="20" max-width="80" src="https://badges.pufler.dev/repos/pehaalmeida">
   </a>
-   <a href="https://pufler.dev/git-badges/">
+   <a href="[https://pufler.dev/git-badges/](https://github.com/pehaalmeida/pehaalmeida)">
     <img height="20" max-width="80" src="https://badges.pufler.dev/commits/monthly/pehaalmeida">
   </a>
 </p>
+  ##
+
+
   
  <a href="https://github.com/pehaalmeida"><img src="FIM.svg" />
 
