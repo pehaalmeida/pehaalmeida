@@ -42,5 +42,5 @@
 
 
   
-<a href="https://github.com/pehaalmeida"><img src="FIM.svg" />
+<img src="FIM.svg" />
  
