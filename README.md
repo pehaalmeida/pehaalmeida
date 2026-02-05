@@ -3,15 +3,6 @@
     <img src="https://raw.githubusercontent.com/pehaalmeida/pehaalmeida/main/INICIO.svg" alt="Início" />
   </a>
 
-  <!-- Skip to content -->
-  <p>
-    <a href="#-sobre-mim">Sobre mim</a> •
-    <a href="#-skills">Skills</a> •
-    <a href="#-estatísticas-do-github">Estatísticas</a> •
-    <a href="#-cobrinha-dos-commits">Cobrinha</a> •
-    <a href="#-contato">Contato</a>
-  </p>
-
   <a href="https://github.com/pehaalmeida">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=5A2797&width=560&lines=Hello+World!+%F0%9F%8C%8E;Meu+nome+%C3%A9+Pedro+Augusto+%F0%9F%98%81;Pode+me+chamar+de+Augusto+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
