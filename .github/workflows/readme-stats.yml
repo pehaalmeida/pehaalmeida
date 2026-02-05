@@ -1,0 +1,45 @@
+name: Atualizar estatísticas do README
+
+on:
+  # Executa automaticamente 1 vez por dia
+  schedule:
+    - cron: "0 3 * * *" # Todos os dias às 03:00 UTC
+
+  # Permite executar manualmente pelo GitHub Actions
+  workflow_dispatch:
+
+jobs:
+  gerar-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Clona o repositório
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      # Gera o card de estatísticas do GitHub
+      - name: Gerar estatísticas do GitHub
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=pehaalmeida&show_icons=true&theme=transparent
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Gera o card de linguagens mais usadas
+      - name: Gerar linguagens mais usadas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=pehaalmeida&layout=compact&theme=transparent&langs_count=8
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Commita os SVGs gerados automaticamente
+      - name: Commitar arquivos gerados
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "Atualiza estatísticas do README" || exit 0
+          git push
