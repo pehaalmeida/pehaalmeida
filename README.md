@@ -69,15 +69,6 @@
   <img src="./assets/top-langs.svg" height="165" alt="Top Langs" />
 </div>
 
-<p align="center">
-  <a href="https://github.com/pehaalmeida/pehaalmeida">
-    <img height="20" src="https://badges.pufler.dev/repos/pehaalmeida" />
-  </a>
-  <a href="https://github.com/pehaalmeida/pehaalmeida">
-    <img height="20" src="https://badges.pufler.dev/commits/monthly/pehaalmeida" />
-  </a>
-</p>
-
 ---
 
 ## 🐍 Cobrinha dos commits
