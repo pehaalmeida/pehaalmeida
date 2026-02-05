@@ -2,13 +2,12 @@ name: Gerar cobrinha de commits
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Atualiza 1x por dia
+    - cron: "0 0 * * *" # diariamente
   workflow_dispatch:
 
 jobs:
   gerar-snake:
     runs-on: ubuntu-latest
-
     steps:
       - name: Gerar cobrinha de commits
         uses: Platane/snk/svg-only@v3
@@ -20,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publicar arquivos gerados
+      - name: Publicar SVGs na branch output
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
