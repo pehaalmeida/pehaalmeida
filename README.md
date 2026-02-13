@@ -54,10 +54,10 @@
 
 ## 📊 Estatísticas do GitHub
 
-<!-- SVGs gerados via GitHub Actions (sem depender da Vercel) -->
 <div align="center">
-  <img src="./assets/stats.svg" height="165" alt="GitHub Stats" />
-  <img src="./assets/top-langs.svg" height="165" alt="Top Langs" />
+  <img src="./assets/generated/stats-card.svg" alt="Mission Telemetry" />
+  <br/>
+  <img src="./assets/generated/tech-stack.svg" alt="Language Telemetry + Focus Sectors" />
 </div>
 
 ---
