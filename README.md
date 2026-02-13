@@ -60,10 +60,18 @@
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="assets/generated/stats-card.svg" alt="Mission Telemetry" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/dark/stats-card.svg">
+    <img src="assets/generated/light/stats-card.svg" />
+  </picture>
+
   <br/>
-  <img src="assets/generated/tech-stack.svg" alt="Tech Stack" />
-</div>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/dark/tech-stack.svg">
+    <img src="assets/generated/light/tech-stack.svg" />
+  </picture>
+</div>  
 
 ---
 

@@ -31,14 +31,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r galaxy-profile/requirements.txt
 
-      - name: Copy config.yml into generator
-        run: |
-          cp config.yml galaxy-profile/config.yml
-
+      # DARK
       - name: Generate SVGs (dark)
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          rm -rf galaxy-profile/assets/generated
           cp config.dark.yml galaxy-profile/config.yml
           cd galaxy-profile
           python -m generator.main generate
@@ -47,10 +45,12 @@ jobs:
           mkdir -p assets/generated/dark
           cp -r galaxy-profile/assets/generated/* assets/generated/dark/
 
+      # LIGHT
       - name: Generate SVGs (light)
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          rm -rf galaxy-profile/assets/generated
           cp config.light.yml galaxy-profile/config.yml
           cd galaxy-profile
           python -m generator.main generate
@@ -58,12 +58,6 @@ jobs:
           rm -rf assets/generated/light
           mkdir -p assets/generated/light
           cp -r galaxy-profile/assets/generated/* assets/generated/light/
-
-      - name: Copy generated assets back to repo
-        run: |
-          rm -rf assets/generated
-          mkdir -p assets/generated
-          cp -r galaxy-profile/assets/generated/* assets/generated/
 
       - name: Commit and push if changed
         run: |
