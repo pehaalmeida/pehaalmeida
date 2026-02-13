@@ -18,7 +18,10 @@
   <br/>
 
   <div align="center">
-    <img src="assets/generated/galaxy-header.svg" alt="Galaxy Header" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/dark/galaxy-header.svg">
+      <img src="assets/generated/light/galaxy-header.svg" alt="Galaxy Header">
+    </picture>
   </div>
 
 
