@@ -1,43 +1,59 @@
-name: Generate Profile SVGs
+name: Generate Galaxy Profile SVGs
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - "config.yml"
-      - "generator/**"
+  schedule:
+    - cron: "0 */12 * * *" # a cada 12 horas
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    name: Generate galaxy profile assets
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Clone galaxy-profile
+        run:
+          rm -rf galaxy-profile
+          git clone --depth 1 https://github.com/vinimlo/galaxy-profile.git galaxy-profile
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: 
+          python -m pip install --upgrade pip
+          pip install -r galaxy-profile/requirements.txt
+
+      - name: Copy config.yml into generator
+        run:
+          cp config.yml galaxy-profile/config.yml
 
       - name: Generate SVGs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -m generator.main --demo
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run:
+          cd galaxy-profile
+          python -m generator.main generate
+
+      - name: Copy generated assets back to repo
+        run:
+          rm -rf assets/generated
+          mkdir -p assets/generated
+          cp -r galaxy-profile/assets/generated/* assets/generated/
 
       - name: Commit and push if changed
-        run: |
+        run:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/generated/
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update profile SVGs [skip ci]"
+            git commit -m "chore: update galaxy profile"
             git push
           fi
