@@ -1,0 +1,41 @@
+username: pehaalmeida
+profile:
+  name: Pedro Augusto
+  tagline: Desenvolvedor & Explorador Open Source
+  company: ''
+  location: ''
+  bio: "Sou apaixonado por tecnologia e programação.\n\nProgramar é uma arte."
+  philosophy: '"The best code is the code that empowers others."'
+social:
+  email: ''
+  linkedin: ''
+  website: ''
+galaxy_arms:
+  - name: Frontend
+    color: dendrite_violet
+    items: [TypeScript, React, CSS]
+  - name: Backend
+    color: synapse_cyan
+    items: [Python, Node.js, PostgreSQL]
+  - name: DevOps
+    color: axon_amber
+    items: [Docker, GitHub Actions, AWS]
+projects:
+  - repo: pehaalmeida/pehaalmeida
+    arm: 2
+    description: Meu perfil no GitHub — README animado e automações.
+theme:
+  void: '#f8fafc'
+  nebula: '#ffffff'
+  star_dust: '#e2e8f0'
+  synapse_cyan: '#0284c7'
+  dendrite_violet: '#7c3aed'
+  axon_amber: '#d97706'
+  text_bright: '#0f172a'
+  text_dim: '#334155'
+  text_faint: '#64748b'
+stats:
+  metrics: [commits, stars, prs, issues, repos]
+languages:
+  exclude: [HTML, CSS, Shell, Makefile]
+  max_display: 8

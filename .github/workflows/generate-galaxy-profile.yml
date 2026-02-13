@@ -35,12 +35,29 @@ jobs:
         run: |
           cp config.yml galaxy-profile/config.yml
 
-      - name: Generate SVGs
+      - name: Generate SVGs (dark)
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          cp config.dark.yml galaxy-profile/config.yml
           cd galaxy-profile
           python -m generator.main generate
+          cd ..
+          rm -rf assets/generated/dark
+          mkdir -p assets/generated/dark
+          cp -r galaxy-profile/assets/generated/* assets/generated/dark/
+
+      - name: Generate SVGs (light)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cp config.light.yml galaxy-profile/config.yml
+          cd galaxy-profile
+          python -m generator.main generate
+          cd ..
+          rm -rf assets/generated/light
+          mkdir -p assets/generated/light
+          cp -r galaxy-profile/assets/generated/* assets/generated/light/
 
       - name: Copy generated assets back to repo
         run: |
