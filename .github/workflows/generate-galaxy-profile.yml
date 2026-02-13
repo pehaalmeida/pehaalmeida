@@ -2,7 +2,7 @@ name: Generate Galaxy Profile SVGs
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # roda a cada 12 horas
+    - cron: "0 */12 * * *" # a cada 12 horas
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,8 @@ jobs:
 
       - name: Clone galaxy-profile generator
         run: |
-          git clone https://github.com/vinimlo/galaxy-profile.git generator
+          rm -rf generator
+          git clone --depth 1 https://github.com/vinimlo/galaxy-profile.git generator
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -27,15 +28,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd generator
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r generator/requirements.txt
 
       - name: Generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cd generator
-          python main.py generate --config ../config.yml --output ../assets/generated
+          mkdir -p assets/generated
+          python generator/generator/main.py generate --config config.yml --output assets/generated
 
       - name: Commit and push changes
         run: |
