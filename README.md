@@ -17,6 +17,11 @@
 
   <br/>
 
+  <div align="center">
+    <img src="assets/generated/galaxy-header.svg" alt="Galaxy Header" />
+  </div>
+
+
   ## 🔗 Contato
   <div align="left">
     <a href="https://instagram.com/peh.aalmeida" target="_blank">
@@ -55,19 +60,9 @@
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/dark/stats-card.svg">
-  <img alt="Mission Telemetry" src="./assets/generated/light/stats-card.svg">
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/dark/tech-stack.svg">
-  <img alt="Tech Stack" src="./assets/generated/light/tech-stack.svg">
-</picture>
-
+  <img src="assets/generated/stats-card.svg" alt="Mission Telemetry" />
+  <br/>
+  <img src="assets/generated/tech-stack.svg" alt="Tech Stack" />
 </div>
 
 ---
