@@ -55,9 +55,19 @@
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="./assets/generated/stats-card.svg" alt="Mission Telemetry" />
-  <br/>
-  <img src="./assets/generated/tech-stack.svg" alt="Language Telemetry + Focus Sectors" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/dark/stats-card.svg">
+  <img alt="Mission Telemetry" src="./assets/generated/light/stats-card.svg">
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/dark/tech-stack.svg">
+  <img alt="Tech Stack" src="./assets/generated/light/tech-stack.svg">
+</picture>
+
 </div>
 
 ---
