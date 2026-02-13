@@ -36,7 +36,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           mkdir -p assets/generated
-          python generator/generator/main.py generate --config config.yml --output assets/generated
+          cd generator
+          python -m generator.main generate --config ../config.yml --output ../assets/generated
+
 
       - name: Commit and push changes
         run: |
